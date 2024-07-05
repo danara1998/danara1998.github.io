@@ -1,0 +1,12 @@
+.description {
+  width: 1240px;
+  height: 600px;
+}
+.description__text {
+  width: 608px;
+  height: 510px;
+}
+.description__text .description_title {
+  width: 520px;
+  height: 140px;
+}/*# sourceMappingURL=description.css.map */

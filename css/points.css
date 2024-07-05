@@ -1,0 +1,12 @@
+.points {
+  width: 1440px;
+  height: 250px;
+}
+.points .points__blocks {
+  width: 1091px;
+  height: 134px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 175px;
+  margin-top: 58px;
+}/*# sourceMappingURL=points.css.map */

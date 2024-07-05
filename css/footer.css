@@ -1,0 +1,14 @@
+.footer {
+  width: 1440px;
+  height: 545px;
+}
+.footer__subscribe {
+  width: 1240px;
+  height: 56px;
+  display: flex;
+  justify-content: space-between;
+}
+.footer__subscribe .email .input_email {
+  width: 386px;
+  height: 56px;
+}/*# sourceMappingURL=footer.css.map */

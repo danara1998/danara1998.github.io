@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+@import './reset.scss';
+@import './vars.scss';
+@import './mixins-extends.scss';
+
+@import '../blocks/header.scss';
+@import '../blocks/partners.scss';
+@import '../blocks/products.scss';
+@import '../blocks/points.scss';
+@import '../blocks/description.scss';
+@import '../blocks/review.scss';
+@import '../blocks/footer.scss';
+
+
+body{
+    font-family: $font;
+    width: 1440px;
+    height: 4626px;
+}

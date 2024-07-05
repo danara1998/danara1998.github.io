@@ -1,0 +1,148 @@
+footer{
+    width: 1440px;
+    height: 545px;
+    background-color: #FAFAFA;
+    margin-top: 130px;
+    .line_bottom2{
+        border: 1px solid #ddd;
+        width: 1240px;
+        height: 0px;
+        margin: auto;
+        margin-top: 115px;
+        }
+    .footer__subscribe{
+        width: 1240px;
+        height: 56px;
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        padding-top: 103px;
+        .sub{
+            // width: 558px;
+            // height: 46px;
+            @include text-style(none, 500, 36px, 128%, none, $subtitle-color);
+        }
+        .email{
+            position: relative;
+            
+        
+            .input_email{
+                width: 386px;
+                height: 56px;
+                @include text-style(none, 400, 15px, 125%, none,$text-color);
+                padding-left: 18px; 
+                outline: none;      
+            }
+            .btn_sub{
+                position: absolute;
+                right: 6px;
+                top: 8px;
+                border: none;
+                cursor: pointer;
+                width: 103px;
+                height: 40px;
+                background-color: $accent-color;
+                @include text-style(none, 500, 14px, 143%, none, #FFFFFF);
+            } 
+            .btn_sub:hover{
+                transform: scale(1.1);
+            }  
+        }
+
+    }
+    
+    .footer__bottom{
+        width: 1130px;
+        height: 216px;
+        display: flex;
+        justify-content: space-between;
+        margin: 59px 205px 52px;
+        // margin-top: 59px;
+        .bottom_block1{
+            width: 326px;
+            height: 216px;
+            .logo_big{
+                width: 213px;
+                height: 50px;
+                @include text-style(italic, 700, 40px,125%, underline, $subtitle-color)
+            }
+            .block1_txt{
+                width: 326px;
+                height: 128px;
+                margin-top: 38px;
+                @include text-style(none, 400, 18px,178%, none, $text-color)
+            }
+            
+        }
+        .bottom_block2{
+            width: 96px;
+            height: 163px;
+            margin-top: 25px;
+            .block2_txt{
+                width: 96px;
+                height: 24px;
+                @include text-style(none, 500, 20px, 120%, none, $subtitle-color);
+                
+            }
+            .block2_links{
+                width: 67px;
+                height: 100px;
+                margin-top: 39px;
+                .list_links{
+                    margin-bottom: 20px;
+                }
+                .links{
+                    @include text-style(none, 400, 16px, 125%, none, $subtitle-color);
+                }
+
+            }
+        }
+
+        .bottom_block3{
+            width: 183px;
+            height: 155.84px;
+            margin-top: 25px;
+            .block3_txt{
+                width: 102px;
+                height: 24px;
+                @include text-style(none, 500, 20px, 120%, none, $subtitle-color);
+            }
+            .block3_contacts{
+                width: 183px;
+                height: 92.84px;
+                margin-top: 39px;
+                .list_contacts{
+                    margin-bottom: 20px;
+                    @include text-style(none, 400, 16px, 125%, none, $subtitle-color);
+                }
+                
+            }   
+        }
+    }
+    
+    @media (max-width: 375px){
+        .footer__subscribe{
+        flex-direction: column;
+        align-items: center;
+        padding-top: 20px;
+        margin-left: 0;
+        width: 375px;
+        height: auto;
+        }
+        .footer__bottom{
+            flex-direction: column;
+            align-items: center;
+            padding-top: 20px;
+            margin-left: 0;
+            width: 375px;
+            height: auto;
+            }
+    }
+}
+
+
+
+
+
+
+

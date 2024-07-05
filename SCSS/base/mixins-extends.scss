@@ -1,0 +1,15 @@
+%flex-x{ 
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+} 
+ 
+@mixin text-style( $fstyle, $fw, $fz, $ln, $txt-decor, $clr){ 
+    // font-family: $ff; 
+    font-style: $fstyle;
+    font-weight: $fw; 
+    font-size: $fz; 
+    line-height: $ln;
+    text-decoration: $txt-decor;  
+    color: $clr; 
+}
